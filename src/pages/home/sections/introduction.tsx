@@ -94,6 +94,15 @@ function Biography() {
 }
 
 function EmailCopy({ email }: { email: string }) {
+  if (!email.includes("@")) {
+    return (
+      <p className="flex flex-row items-center gap-2 text-base font-medium text-muted-foreground">
+        <FaRegEnvelope className="w-4 h-4" />
+        {email}
+      </p>
+    );
+  }
+
   const handleCopy = () => {
     navigator.clipboard.writeText(email);
     toast("📋 Email Address Copied!", {

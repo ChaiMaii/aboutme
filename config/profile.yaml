@@ -1,7 +1,7 @@
 profile:
   name: "ChaiMaii"
   headline: "Developer · Creator of FakeScript"
-  email: "till@glanert.de"
+  email: "On request"
   location: null
   profileImage: "https://github.com/ChaiMaii.png"
 
@@ -29,7 +29,7 @@ profile:
     <div class="my-2"></div>
     I enjoy designing compilers, developer tooling, documentation sites, and editor extensions. Around FakeScript, I've built the single-file Go compiler (<code>fksc</code>), a <a href="https://chaimaii.github.io/fakescript-docs/" target="_blank" rel="noopener noreferrer">VitePress documentation site</a> packaged for Docker, the <a href="https://chaimaii.github.io/fakescript-website/" target="_blank" rel="noopener noreferrer">FakeScript landing website</a>, and a <a href="https://github.com/ChaiMaii/fakescript-vscode" target="_blank" rel="noopener noreferrer">VS Code &amp; Antigravity IDE extension</a>.
     <div class="my-2"></div>
-    Check out my projects below or feel free to <a href="mailto:till@glanert.de" target="_blank" rel="noopener noreferrer">reach out</a> on GitHub!
+    Check out my projects below or feel free to <a href="https://github.com/ChaiMaii" target="_blank" rel="noopener noreferrer">reach out</a> on GitHub!
 
 education: []
 
