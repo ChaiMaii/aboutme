@@ -1,0 +1,78 @@
+profile:
+  name: "ChaiMaii"
+  headline: "Developer · Creator of FakeScript"
+  email: "till@glanert.de"
+  location: null
+  profileImage: "https://github.com/ChaiMaii.png"
+
+  links:
+    - name: "GitHub"
+      url: "https://github.com/ChaiMaii"
+      icon:
+        name: "FaGithub"
+        package: "react-icons/fa6"
+
+    - name: "FakeScript Website"
+      url: "https://chaimaii.github.io/fakescript-website/"
+      icon:
+        name: "FaGlobe"
+        package: "react-icons/fa6"
+
+    - name: "FakeScript Docs"
+      url: "https://chaimaii.github.io/fakescript-docs/"
+      icon:
+        name: "FaBook"
+        package: "react-icons/fa6"
+
+  biography: |
+    Hi! I'm <strong>ChaiMaii</strong>, an independent developer building <a href="https://github.com/ChaiMaii/fakescript" target="_blank" rel="noopener noreferrer"><strong>FakeScript</strong></a> — a strictly zero-symbol, Ahead-of-Time compiled programming language written in pure plain English words.
+    <div class="my-2"></div>
+    I enjoy designing compilers, developer tooling, documentation sites, and editor extensions. Around FakeScript, I've built the single-file Go compiler (<code>fksc</code>), a <a href="https://chaimaii.github.io/fakescript-docs/" target="_blank" rel="noopener noreferrer">VitePress documentation site</a> packaged for Docker, the <a href="https://chaimaii.github.io/fakescript-website/" target="_blank" rel="noopener noreferrer">FakeScript landing website</a>, and a <a href="https://github.com/ChaiMaii/fakescript-vscode" target="_blank" rel="noopener noreferrer">VS Code &amp; Antigravity IDE extension</a>.
+    <div class="my-2"></div>
+    Check out my projects below or feel free to <a href="mailto:till@glanert.de" target="_blank" rel="noopener noreferrer">reach out</a> on GitHub!
+
+education: []
+
+workExperience: []
+
+talks: []
+
+services: []
+
+skills:
+  Languages:
+    - name: "Go"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg"
+      proficiency: "Compilers & CLI"
+      description: "Building the zero-dependency FakeScript AOT compiler (fksc)."
+
+    - name: "FakeScript"
+      logo: "/images/fakescript-logo.svg"
+      proficiency: "Creator"
+      description: "Strictly zero-symbol, type-safe AOT compiled language."
+
+    - name: "TypeScript"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/f/f5/Typescript.svg"
+      proficiency: "Web & Docs"
+      description: null
+
+    - name: "JavaScript"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
+      proficiency: "Web & Tooling"
+      description: null
+
+  Tooling & Ecosystem:
+    - name: "Docker"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg"
+      proficiency: "Containers"
+      description: "Multi-stage Debian 13 documentation deployments."
+
+    - name: "GitHub Actions"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+      proficiency: "CI/CD"
+      description: "Automated GitHub Pages & VS Code Marketplace publishing."
+
+    - name: "VS Code Extensions"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg"
+      proficiency: "Editor Tooling"
+      description: "TextMate grammars, snippets, and language configurations."

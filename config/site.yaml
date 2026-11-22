@@ -1,0 +1,5 @@
+site:
+  name: "ChaiMaii"
+  repoUrl: "https://github.com/ChaiMaii/aboutme"
+  description: "Developer building FakeScript — a strictly zero-symbol, Ahead-of-Time compiled programming language."
+  author: "ChaiMaii"

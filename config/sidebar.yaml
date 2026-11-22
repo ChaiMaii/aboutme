@@ -1,0 +1,15 @@
+sidebar:
+  userName: "ChaiMaii"
+  profileImage: "https://github.com/ChaiMaii.png"
+  sections:
+    - title: About Me
+      url: ""
+      icon:
+        name: LuUser
+        package: "react-icons/lu"
+
+    - title: Projects
+      url: "projects"
+      icon:
+        name: LuWrench
+        package: "react-icons/lu"

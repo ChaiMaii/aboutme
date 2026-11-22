@@ -1,0 +1,26 @@
+projects:
+  items:
+    - id: "fakescript"
+      displayName: "FakeScript"
+      previewImage: "https://chaimaii.github.io/fakescript-website/images/fakescript-logo.svg"
+      featured: true
+
+    - id: "fakescript-website"
+      displayName: "FakeScript Website"
+      previewImage: "https://chaimaii.github.io/fakescript-website/images/fakescript-logo.svg"
+      featured: true
+
+    - id: "fakescript-docs"
+      displayName: "FakeScript Docs"
+      previewImage: null
+      featured: true
+
+    - id: "fakescript-vscode"
+      displayName: "FakeScript for VS Code"
+      previewImage: null
+      featured: true
+
+    - id: "heroic-heights-issues"
+      displayName: "Create: Heroic Heights"
+      previewImage: null
+      featured: false
