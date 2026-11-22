@@ -6,6 +6,17 @@ import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { services } from "@/data/services";
 
+interface ServiceItem {
+  category?: string;
+  role: string;
+  organization?: string;
+  date?: string;
+  link?: string | null;
+  image?: string | null;
+}
+
+const servicesList: ServiceItem[] = services as ServiceItem[];
+
 interface ServiceSectionProps {
   variant?: string;
 }
@@ -50,7 +61,7 @@ function ServicesContent() {
   };
 
   // group services by category
-  const groupedServices = services.reduce<Record<string, typeof services>>(
+  const groupedServices = servicesList.reduce<Record<string, ServiceItem[]>>(
     (acc, item) => {
       const cat = item.category || "Other";
       if (!acc[cat]) acc[cat] = [];

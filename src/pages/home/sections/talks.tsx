@@ -7,6 +7,17 @@ import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { talks } from "@/data/talks";
 
+interface TalkItem {
+  category?: string;
+  title: string;
+  organization?: string;
+  date?: string;
+  link?: string | null;
+  image?: string | null;
+}
+
+const talksList: TalkItem[] = talks as TalkItem[];
+
 interface TalksSectionProps {
   variant?: string;
 }
@@ -51,7 +62,7 @@ function TalksContent() {
   };
 
   // group talks by category
-  const groupedTalks = talks.reduce<Record<string, typeof talks>>(
+  const groupedTalks = talksList.reduce<Record<string, TalkItem[]>>(
     (acc, item) => {
       const cat = item.category || "Other";
       if (!acc[cat]) acc[cat] = [];
